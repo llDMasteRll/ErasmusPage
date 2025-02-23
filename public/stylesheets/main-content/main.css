@@ -2,7 +2,8 @@ main .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 75vh;
+    align-items: start;
+    max-height: 100vh;
 }
 
 main .title {
