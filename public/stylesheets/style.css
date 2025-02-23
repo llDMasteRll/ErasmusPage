@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container-fluid {
+  width: 100%;
+}
+
 .d-flex {
   display: flex;
   align-items: center;
