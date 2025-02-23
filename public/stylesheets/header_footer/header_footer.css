@@ -1,0 +1,13 @@
+.container-fluid {
+    width: 100%;
+}
+
+header .container {
+    max-height: 15vh;
+}
+
+header .upperContainer img {
+    width: 100px;
+    height: 100px;
+}
+
