@@ -1,9 +1,5 @@
 header .container {
-    height: 10vh;
     background: rgba(0, 0, 0);
-}
-
-header .container {
     flex-wrap: wrap;
 }
 
@@ -12,15 +8,19 @@ header .container .upperContainer, header .container .lowerContainer {
 }
 
 /*===================Upper Container in the header===================*/
+header .upperContainer {
+    height: 10vh;
+}
 
 header .upperContainer img[alt="Erasmus+"] {
     width: 250px;
     height: 70px;
+    margin-left: 5px;
 }
 
 header .upperContainer .RightsReserved {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     background-color: white;
     mask-image: url("/images/Copyright-Symbol-R.png");
     mask-size: 100% 100%;
@@ -28,18 +28,59 @@ header .upperContainer .RightsReserved {
 
 }
 
-header .upperContainer > a {
-    padding: 20px;
+header .upperContainer a {
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25em;
 }
 
 header .upperContainer .button-link-f {
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(255, 210, 74);
     border: rgb(255, 191, 0) solid 2px;
+    color: black;
 }
 
 header .upperContainer .button-link-s {
     background-color: transparent;
     border: white solid 2px;
+    color: rgb(255, 255, 255);
+}
+
+header .upperContainer .semi-nav-block {
+    width: 25%;
+}
+
+header .upperContainer .semi-nav-block.d-flex {
+    justify-content: space-around;
+    margin-right: 10px;
 }
 
 /*===================Lower Container in the header===================*/
+
+header .lowerContainer {
+    height: 5vh;
+    background-color: whitesmoke;
+}
+
+header .lowerContainer a {
+    margin: 0 40px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.25em;
+    color: black;
+}
+
+header .lowerContainer nav {
+    margin: 0 auto;
+}
+
+header .lowerContainer a {
+    position: relative;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+header .lowerContainer a:hover {
+    border-bottom: solid 5px rgb(255, 210, 74);
+}
