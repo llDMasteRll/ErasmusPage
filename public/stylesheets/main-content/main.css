@@ -2,8 +2,13 @@ main .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: start;
-    max-height: 100vh;
+    height: 85vh;
+}
+
+.left-mrg {
+    margin-left: 1vw;
 }
 
 main .title {
@@ -13,10 +18,68 @@ main .title {
     font-weight: 365;
     font-size: 120px;
     line-height: 136px;
-    margin-left: 1vw;
 }
 
-.bg-video {
+main .bottom-content {
+    width: 100vw;
+}
+
+main .bottom-left-block {
+    display: block;
+    color: #f4ede1;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    font-size: 80px;
+    width: 50vw;
+}
+
+main .bottom-right-container {
+    display: flex;
+    align-self: self-end;
+    background-color: #fff8ec;
+    border-radius: 6px 0px 0px 0px;
+    width: 25vw;
+    height: 20vh;
+    padding-bottom: 15px;
+}
+
+main .icons {
+    width: 45px;
+    height: 100%;
+    margin: 7px 0px 6px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .icons-description {
+    height: 100%;
+    margin: 7px 0px 6px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+main img[alt="LinkedIn"] {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+}
+
+main .refs {
+    color: #1a1b1a;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main .bg-video {
     position: fixed;
     object-fit: cover;
     top: 0;
