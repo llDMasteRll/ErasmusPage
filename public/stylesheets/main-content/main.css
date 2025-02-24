@@ -15,8 +15,9 @@ main .title {
     color: #f4ede1;
     text-transform: uppercase;
     font-family: "Bebas Neue", serif;
-    font-weight: 365;
-    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 7.5em;
     line-height: 136px;
 }
 
@@ -29,24 +30,32 @@ main .bottom-left-block {
     color: #f4ede1;
     text-transform: uppercase;
     font-family: "Bebas Neue", serif;
-    font-size: 80px;
+    font-size: 3.5em;
     width: 50vw;
 }
 
 main .bottom-right-container {
-    display: flex;
-    align-self: self-end;
-    background-color: #fff8ec;
-    border-radius: 6px 0px 0px 0px;
     width: 25vw;
     height: 20vh;
-    padding-bottom: 15px;
+    background-color: rgb(255, 248, 236);
+    border-radius: 6px 0px 0px 0px;
+}
+
+main .bottom-right-container-fh {
+    display: flex;
+    align-self: center;
+}
+
+main .bottom-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 main .icons {
     width: 45px;
     height: 100%;
-    margin: 7px 0px 6px 10px;
+    margin: 7px 0px 6px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,6 +74,20 @@ main .icon {
     display: block;
     width: 35px;
     height: 35px;
+}
+
+main .icons img {
+    margin: 10px 0;
+}
+
+main .icons-description a {
+    margin: 13px 0;
+}
+
+main .bottom-right-container-sh p {
+    font-size: 3em;
+    font-weight: 700;
+    color: black;
 }
 
 main img[alt="LinkedIn"] {

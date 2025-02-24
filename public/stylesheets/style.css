@@ -1,3 +1,7 @@
+:root {
+  --ErasmusBlue: #227cd7; 
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

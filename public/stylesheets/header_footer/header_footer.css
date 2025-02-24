@@ -1,5 +1,5 @@
 header .container {
-    background: rgba(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
     flex-wrap: wrap;
 }
 
@@ -22,22 +22,25 @@ header .upperContainer .RightsReserved {
     width: 55px;
     height: 55px;
     background-color: white;
+    -webkit-mask-image: url("/images/Copyright-Symbol-R.png");
     mask-image: url("/images/Copyright-Symbol-R.png");
+    -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
 
 }
 
 header .upperContainer a {
-    padding: 15px 40px;
+    padding: 13px 40px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.25em;
 }
 
 header .upperContainer .button-link-f {
-    background-color: rgb(255, 210, 74);
-    border: rgb(255, 191, 0) solid 2px;
+    background-color: var(--ErasmusBlue);
+    border: var(--ErasmusBlue) solid 2px;
     color: black;
 }
 
@@ -48,41 +51,12 @@ header .upperContainer .button-link-s {
 }
 
 header .upperContainer .semi-nav-block {
-    width: 25%;
+    width: 25vw;
 }
 
 header .upperContainer .semi-nav-block.d-flex {
     justify-content: space-around;
     margin-right: 8px;
-}
-
-/*===================Lower Container in the header===================*/
-
-header .lowerContainer {
-    height: 5vh;
-    background-color: whitesmoke;
-}
-
-header .lowerContainer a {
-    margin: 0 40px;
-    padding: 5px 10px;
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 1.25em;
-    color: black;
-}
-
-header .lowerContainer nav {
-    margin: 0 auto;
-}
-
-header .lowerContainer a {
-    position: relative;
-    transition: border-bottom 0.3s ease-in-out;
-}
-
-header .lowerContainer a:hover {
-    border-bottom: solid 5px rgb(255, 210, 74);
 }
 
 header .upperContainer a:hover {
@@ -93,4 +67,31 @@ header .upperContainer a:hover {
 
 header .upperContainer .button-link-s:hover {
     color: black;
+}
+/*===================Lower Container in the header===================*/
+
+header .lowerContainer {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .lowerContainer a {
+    margin: 0 30px;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.25em;
+    color: black;
+}
+
+header .lowerContainer a {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+header .lowerContainer a:hover {
+    box-shadow: 0px -4px rgb(7, 205, 255) inset;
+    
 }
