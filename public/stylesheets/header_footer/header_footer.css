@@ -53,11 +53,7 @@ header .upperContainer .semi-nav-block {
 
 header .upperContainer .semi-nav-block.d-flex {
     justify-content: space-around;
-<<<<<<< HEAD
-    margin-right: 10px;
-=======
     margin-right: 8px;
->>>>>>> header_footer
 }
 
 /*===================Lower Container in the header===================*/
