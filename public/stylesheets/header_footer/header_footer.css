@@ -53,7 +53,11 @@ header .upperContainer .semi-nav-block {
 
 header .upperContainer .semi-nav-block.d-flex {
     justify-content: space-around;
+<<<<<<< HEAD
     margin-right: 10px;
+=======
+    margin-right: 8px;
+>>>>>>> header_footer
 }
 
 /*===================Lower Container in the header===================*/
@@ -83,4 +87,14 @@ header .lowerContainer a {
 
 header .lowerContainer a:hover {
     border-bottom: solid 5px rgb(255, 210, 74);
+}
+
+header .upperContainer a:hover {
+    background-color: white;
+    border: white 2px solid;
+    transition: 0.3s;
+}
+
+header .upperContainer .button-link-s:hover {
+    color: black;
 }
