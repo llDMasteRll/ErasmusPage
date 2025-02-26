@@ -1,5 +1,5 @@
 header .container {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0);
     flex-wrap: wrap;
 }
 
@@ -94,4 +94,32 @@ header .lowerContainer a {
 header .lowerContainer a:hover {
     box-shadow: 0px -4px rgb(7, 205, 255) inset;
     
+}
+
+/*===================Footer===================*/
+
+footer .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+footer .container img {
+    width: 50px;
+    height: 50px;
+}
+
+footer .container a{
+    color: #545454;
+    text-decoration: none;
+    font-size: 24px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+footer .d-flex {
+    justify-content: space-around;
+}
+
+footer .container a:hover {
+    color: #000000;
 }
