@@ -36,7 +36,7 @@ main .bottom-left-block {
 
 main .bottom-right-container {
     width: 25vw;
-    height: 20vh;
+    height: auto;
     background-color: rgb(255, 248, 236);
     border-radius: 6px 0px 0px 0px;
 }
