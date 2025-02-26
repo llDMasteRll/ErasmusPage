@@ -4,7 +4,7 @@ main .container {
 }
 
 main figure {
-    margin: 100px 0px;
+    margin: 70px 0px;
 }
 
 main figure figcaption{
@@ -27,4 +27,20 @@ main figure img {
     border: 5px solid black;
     border-radius: 20px;
     flex-shrink: 0;
+    object-fit: cover;
 }
+
+figure:nth-child(even) img {
+        order: 2;
+        margin-left: 25px; 
+}
+
+figure:nth-child(even) figcaption {
+        order: 1;
+        margin-left: 0;
+}
+
+figure:nth-child(even) figcaption h2 {
+    text-align: end;
+}
+
