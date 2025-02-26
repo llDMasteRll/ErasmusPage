@@ -1,21 +1,25 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+document.querySelector(".move-right").addEventListener("click", () => {
+    const slide = [];
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+    for(let i = 0; i < 5; ++i) 
+        slide.push(document.querySelector(`[data-card="${i}"]`).className.split(' ')[1]);
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+    for(let i = 4; i > 0; i--) 
+        document.querySelector(`[data-card="${i}"]`).className = `slide ${slide[i - 1]}`;
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex-1].style.display = "block";
-}
+    document.querySelector(`[data-card="0"]`).className = `slide ${slide[4]}`;
+});
+
+
+document.querySelector(".move-left").addEventListener("click", () => {
+    const slide = [];
+
+    for(let i = 0; i < 5; ++i) 
+        slide.push(document.querySelector(`[data-card="${i}"]`).className.split(' ')[1]);
+
+    for(let i = 0; i < 4; ++i)
+        document.querySelector(`[data-card="${i}"]`).className = `slide ${slide[i + 1]}`;
+
+    document.querySelector(`[data-card="4"]`).className = `slide ${slide[0]}`;
+});
+
