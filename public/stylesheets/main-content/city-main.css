@@ -1,5 +1,5 @@
 main .container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 20px auto;
 }
 
@@ -8,14 +8,23 @@ main figure {
 }
 
 main figure figcaption{
-    margin-left: 20px;
+    align-self: flex-start;
+    margin-left: 25px;
     font-family: "Comic Sans MS";
     font-size: 1.3em;
+    flex-grow: 1;
 }   
 
+main figure figcaption h2 {
+    font-size: 2em;
+    font-family: "Comic Sans MS";
+    margin-bottom: 15px;
+}
+
 main figure img {
-    width: 600px;
-    height: 350px;
+    width: 520px;
+    height: 320px;
     border: 5px solid black;
     border-radius: 20px;
+    flex-shrink: 0;
 }
