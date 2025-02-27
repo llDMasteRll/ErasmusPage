@@ -8,32 +8,18 @@
     header .upperContainer .semi-nav-block {
         width: 35vw;
     }    
-
-    main .bottom-right-container-sh p {
-        font-size: 2em !important; 
-    }
 }
 
 @media screen and (max-width: 1225px) {
     header .upperContainer .semi-nav-block {
         width: 40vw;
     }   
-
-    main .bottom-left-block{
-        font-size: 3em !important; 
-    }
 }
 
 @media screen and (max-width: 1070px) {
     header .upperContainer .semi-nav-block {
         width: 45vw;
     }  
-    main .bottom-right-container {
-        width: 35vw !important;
-    }
-    main .title {
-        font-size: 6em !important;
-    }
 }
 
 
@@ -41,24 +27,6 @@
     header .upperContainer .semi-nav-block {
         width: 70vw;
     }  
-    main .title {
-        font-size: 6em;
-    }
-}
-
-@media screen and (max-width: 780px) {
-    main .title {
-        font-size: 5em !important;
-    }
-
-    main .bottom-right-container-sh{
-        display: none;
-    }
-
-    main .bottom-left-block{
-        font-size: 2.2em !important; 
-    }
-
 }
 
 @media screen and (max-width: 670px) {
@@ -75,20 +43,22 @@
     }  
 }
 
+@media screen and (max-width: 580px) {
+    footer .d-flex{
+        flex-wrap: wrap;
+    }
+
+    footer .innerNav {
+        margin: 7px 10px;
+    }
+}
+
 @media screen and (max-width: 530px) {
-    .upperContainer a {
+    header .upperContainer a {
         padding: 10px 20px !important;
     }
 
-    main .bottom-right-container {
-        width: 40vw !important;
-    }
-
-    main .bg-video {
-        object-position: 40%;
-    }
-
-    .lowerContainer a {
+    header .lowerContainer a {
         margin: 0 10px !important;
     }
 }
@@ -98,26 +68,6 @@
         width: 27px;
         height: 27px;
     } 
-
-    main .bottom-content {
-        flex-wrap: wrap;
-    }
-
-    main .bottom-left-block {
-        width: 100vw !important;
-        word-wrap: break-word;
-        text-align: center;
-        margin: 0;
-    }
-
-    main .bottom-right-container {
-        width: 100vw !important;
-    }
-
-    main .title {
-        text-align: center;
-        line-height: 90px !important;
-    }
 }
 
 @media screen and (max-width: 430px) {
@@ -127,19 +77,24 @@
     }
 
     header .upperContainer {
-        height: 16vh;
+        height: 20vh;
+    }
+
+    header .upperContainer .RightsReserved {
+        display: none;
     }
 }
 
 @media screen and (max-width: 380px) {
-    header .upperContainer a {
-        padding: 13px 40px;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 1em;
-    }
 
     header .lowerContainer a {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    header .upperContainer a {
         font-size: 1.1em;
     }
 }
@@ -148,9 +103,5 @@
     header .upperContainer .RightsReserved {
         width: 20px;
         height: 20px;
-    }
-    
-    main .title {
-        font-size: 4em !important;
     }
 }

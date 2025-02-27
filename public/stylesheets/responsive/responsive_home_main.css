@@ -1,0 +1,82 @@
+@media screen and (max-width: 1410px) {
+    main .bottom-right-container-sh p {
+        font-size: 2em !important; 
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    main .bottom-left-block{
+        font-size: 3em !important; 
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    main .bottom-right-container {
+        width: 35vw !important;
+    }
+    main .title {
+        font-size: 6em !important;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    main .title {
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    main .title {
+        font-size: 5em !important;
+    }
+
+    main .bottom-right-container-sh{
+        display: none;
+    }
+
+    main .bottom-left-block{
+        font-size: 2.2em !important; 
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+
+    main .bottom-right-container {
+        width: 40vw !important;
+    }
+
+    main .bg-video {
+        object-position: 40%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    main .bottom-content {
+        flex-wrap: wrap;
+    }
+
+    main .bottom-left-block {
+        width: 100vw !important;
+        word-wrap: break-word;
+        text-align: center;
+        margin: 0;
+    }
+
+    main .bottom-right-container {
+        width: 100vw !important;
+    }
+
+    main .title {
+        text-align: center;
+        line-height: 90px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    main .title {
+        font-size: 4em !important;
+    }
+}
