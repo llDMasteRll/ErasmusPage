@@ -1,9 +1,11 @@
 main .container {
     flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 main figure {
-    margin: 70px 300px;
+    margin: 70px 0px;
     display: flex;
 }
 

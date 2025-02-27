@@ -1,0 +1,107 @@
+@media screen and (max-width: 1700px) {
+    header .upperContainer .semi-nav-block {
+        width: 30vw;
+    }    
+}
+
+@media screen and (max-width: 1410px) {
+    header .upperContainer .semi-nav-block {
+        width: 35vw;
+    }    
+}
+
+@media screen and (max-width: 1225px) {
+    header .upperContainer .semi-nav-block {
+        width: 40vw;
+    }   
+}
+
+@media screen and (max-width: 1070px) {
+    header .upperContainer .semi-nav-block {
+        width: 45vw;
+    }  
+}
+
+
+@media screen and (max-width: 950px) {
+    header .upperContainer .semi-nav-block {
+        width: 70vw;
+    }  
+}
+
+@media screen and (max-width: 670px) {
+    header .upperContainer img[alt="Erasmus+"] {
+        width: 85px;
+        height: 70px;
+        margin-left: 5px;
+        object-fit: cover;
+        object-position: 0 0;
+    }
+
+    header .upperContainer .semi-nav-block {
+        width: 85vw;
+    }  
+}
+
+@media screen and (max-width: 580px) {
+    footer .d-flex{
+        flex-wrap: wrap;
+    }
+
+    footer .innerNav {
+        margin: 7px 10px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    header .upperContainer a {
+        padding: 10px 20px !important;
+    }
+
+    header .lowerContainer a {
+        margin: 0 10px !important;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    header .upperContainer .RightsReserved {
+        width: 27px;
+        height: 27px;
+    } 
+}
+
+@media screen and (max-width: 430px) {
+    header .upperContainer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    header .upperContainer {
+        height: 20vh;
+    }
+
+    header .upperContainer .RightsReserved {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    header .lowerContainer a {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    header .upperContainer a {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header .upperContainer .RightsReserved {
+        width: 20px;
+        height: 20px;
+    }
+}

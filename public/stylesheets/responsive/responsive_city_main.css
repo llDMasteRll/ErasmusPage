@@ -1,0 +1,74 @@
+@media screen and (max-width: 1450px) {
+    main .container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    main .container {
+        max-width: 1000px;
+    }
+
+    main .container figure {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main figure:nth-child(even) img {
+        order: 0; 
+        margin-left: 0;
+    }
+
+    main figure:nth-child(even) figcaption {
+        order: 0;
+        margin-left: 0; 
+    }
+
+    main figure:nth-child(even) figcaption h2 {
+        text-align: center;
+    }
+
+    main .container figure {
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    main figure img {
+        width: 350px;
+        height: 215px;
+    }
+
+    main figure figcaption h2 {
+        font-size: 1.5em;
+    }
+
+    main figure figcaption {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    main figure img {
+        width: 300px;
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    main figure img {
+        width: 250px;
+        height: 154px
+    }
+
+    main figure figcaption h2 {
+        font-size: 1.2em;
+    }
+
+    main figure figcaption {
+        font-size: 0.925em;
+    }
+}
+
+
