@@ -16,36 +16,45 @@ Then enter in the search bar: `localhost:3000`
 Erasmus-webpage/
 ├── .vscode/
 ├── bin
-│   ├── /www
+│   └── /www
 ├── node_modules/
 ├── public/
 │   ├── images/
 │   │   ├── City_Images/
-│   │   ├── Free-time-images/
+│   │   └── Free-time-images/
 │   ├── javascripts/
 │   │   ├── slide_show.js
+│   │   ├── fslightbox.js
+│   │   └── work_exp_swiper.js
 │   ├── stylesheets/
 │   │   ├── header_footer/
-│   │   │   ├── header_footer.css
+│   │   │   └── header_footer.css
 │   │   ├── main-content/
 │   │   │   ├── city-main.css
+│   │   │   ├── free_time.css
 │   │   │   ├── main.css
-│   │   │   ├── slide-show.css
-│   │   ├── style.css
+│   │   │   └── work-experience-slider.css
+│   │   ├── responsive/
+│   │   │   ├── responsive_city_main.css
+│   │   │   ├── responsive_free_time.css
+│   │   │   ├── responsive_header_footer.css
+│   │   │   ├── responsive_home_main.css
+│   │   │   └── responsive_work_exp_main.css
+│   │   └── style.css
 │   ├── videos/
 ├── routes/
 │   ├── index.js
-│   ├── users.js
+│   └── users.js
 ├── tests/
 │   ├── buffer.txt
-│   ├── slider.pdn
+│   └── slider.pdn
 ├── views/
 │   ├── city.html
 │   ├── error.html
 │   ├── free_time.html
 │   ├── layout.html
 │   ├── main.html
-│   ├── work_experience.html
+│   └── work_experience.html
 ├── .gitignore
 ├── app.js
 ├── package-lock.json
