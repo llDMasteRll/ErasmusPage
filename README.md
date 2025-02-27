@@ -1,7 +1,5 @@
 # ErasmusPage
 
-localhost:3000
-
 ## How to launch a project
 
 You can follow the link: [erasmuspage](erasmuspage.vercel.app)
@@ -10,7 +8,7 @@ Or you can run the project on localhost by opening a terminal in the root folder
 ```
 npm start
 ```
-
+Then enter in the search bar: `localhost:3000`
 
 ## Project file system
 
