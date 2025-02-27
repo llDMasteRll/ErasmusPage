@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: start;
+    height: 85vh;
+}
+
+main .swiper {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 6%;
+    overflow: hidden;
+  }
+
+main  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+main .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+main .exp-image {
+    width: inherit;
+    object-fit: cover;
+    border-radius: 12px;
+    aspect-ratio: 2/1;
+}
+
+.footer-pos {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

@@ -124,6 +124,9 @@ footer .container a:hover {
     color: #000000;
 }
 
-
-
-
+.footer-pos {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

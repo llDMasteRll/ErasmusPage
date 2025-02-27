@@ -9,10 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/header_footer/header_footer.css" type="text/css">
-    <link rel="stylesheet" href="/stylesheets/main-content/main.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/responsive/responsive_header_footer.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/responsive/responsive_work_exp_main.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/main-content/work-experience-slider.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -21,8 +25,8 @@
             <div class="upperContainer d-flex">
                 <img src="/images/Erasmus+Logo.png" alt="Erasmus+">
                 <div class="semi-nav-block d-flex">
-                    <a href="https://www.erasmusplus.de/" class = "button-link-f">What's it DE</a>
-                    <a href="https://erasmus-plus.ec.europa.eu/" class = "button-link-s">What's it EU</a>
+                    <a href="https://www.erasmusplus.de/" class="button-link-f">What's it DE</a>
+                    <a href="https://erasmus-plus.ec.europa.eu/" class="button-link-s">What's it EU</a>
                     <div class="RightsReserved"></div>
                 </div>
             </div>
@@ -36,6 +40,88 @@
             </div>
         </div>
     </header>
+
+    <main class="container-fluid">
+        <div class="container d-flex">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image1.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image2.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image3.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image4.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image5.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image6.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image7.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image8.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image8.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image9.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image9.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a data-fslightbox="gallery" href="/images/Work_experience-images/image10.jpg">
+                            <img class="exp-image" src="/images/Work_experience-images/image10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid footer-pos" data-aos="fade-up">
+        <nav class="container d-flex">
+            <div class="innerNav d-flex">
+                <img class="icon" src="/images/gihub-icon.png" alt="GitHub">
+                <a href="https://github.com/llDMasteRll">GitHub</a>
+            </div>
+            <div class="innerNav d-flex">
+                <img class="icon" src="/images/leetCode-icon.png" alt="LeetCode">
+                <a href="https://leetcode.com/u/llMasteRll/">LeetCode</a>
+            </div>
+            <div class="innerNav d-flex">
+                <img class="icon" src="/images/linkedin-logo.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/denyspopov">LinkedIn</a>
+            </div>
+        </nav>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/javascripts/fslightbox.js"></script>
+    <script src="/javascripts/work_exp_swiper.js"></script>
 </body>
 
 </html>
