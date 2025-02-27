@@ -4,7 +4,7 @@ localhost:3000
 
 ## How to launch a project
 
-You can follow the link: [erasmuspage](erasmuspage.vercel.app)
+You can follow the link: [https://erasmuspage.vercel.app](erasmuspage.vercel.app)
 
 Or you can run the project on localhost by opening a terminal in the root folder of the project and write a command.
 ```
