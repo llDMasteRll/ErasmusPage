@@ -8,15 +8,12 @@ main .container {
 }
 
 main .image-slider {
-  width: 85%;
-  height: 80%;
   justify-content: center;
   position: relative;
 }
 
 main .slide {
   display: flex;
-  max-height: 85vh;
   border-radius: 0.5rem;
   position: relative;
   top: 0;
@@ -35,7 +32,6 @@ main .image-slider .slide img {
 }
 
 main .image1 {
-  transform: scale(1) translate(0px, 0px); 
   z-index: 3;
 }
 
@@ -56,14 +52,14 @@ main .image4 {
   transform: scale(0.85) translate(-24%, 5%);
   opacity: 0.6;
   position: absolute;
-  z-index: 2;
+  z-index: 0;
 }  
 
 main .image5 {
   transform: scale(0.85) translate(-18%, 5%);
   opacity: 0;
   position: absolute;
-  z-index: 2;
+  z-index: 0;
 }
 
 main .slider-button { 
