@@ -1,31 +1,31 @@
 @media screen and (max-width: 1410px) {
     main .exp-image {
-        aspect-ratio: 1/1 !important;
+        aspect-ratio: 1/1;
         max-height: 600px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     main .exp-image {
-        aspect-ratio: 1/2 !important;
+        aspect-ratio: 1/2;
     }
 }
 
 @media screen and (max-width: 750px) {
     main .exp-image {
-        aspect-ratio: 1/1 !important;
+        aspect-ratio: 1/1;
     }
 }
 
 @media screen and (max-width: 544px) {
     main .exp-image {
-        aspect-ratio: 1/1 !important;
-        height: 400px !important;
+        aspect-ratio: 1/1;
+        height: 400px;
     }
 
     main  .swiper-slide {
         padding-top: 10%;
-        align-items: start !important;
+        align-items: start;
     }
 }
 
@@ -35,15 +35,33 @@
     }
 }
 
+@media screen and (max-width: 427px) and (max-height: 800px) {
+    main .exp-image {       
+        aspect-ratio: 1/1;
+        height: 325px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     main .exp-image {       
-        aspect-ratio: 1/1 !important;
-        height: 280px !important;
+        aspect-ratio: 1/1;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    main  .swiper-slide {
+        padding-top: 16%;
+    }
+
+    main .exp-image {       
+        aspect-ratio: 1/1;
+        height: 500px;
     }
 }
 
 @media screen and (max-width: 360px) {
-    main  .swiper-slide {
+    main .swiper-slide {
         padding-top: 3%;
     }
 }

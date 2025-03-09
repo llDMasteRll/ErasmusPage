@@ -45,9 +45,6 @@ Erasmus-webpage/
 ├── routes/
 │   ├── index.js
 │   └── users.js
-├── tests/
-│   ├── buffer.txt
-│   └── slider.pdn
 ├── views/
 │   ├── city.html
 │   ├── error.html

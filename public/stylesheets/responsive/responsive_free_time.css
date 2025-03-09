@@ -130,6 +130,43 @@
     }
 }
 
+@media screen and (max-width: 427px) and (max-height: 800px) {
+    main .image-slider .slide {
+        max-height: 300px;
+      }
+
+    main .container {
+        margin-top: 9%;
+        margin-bottom: 15%;
+        height: 100%;
+    }
+
+    main .slider-button {
+        height: 60px;
+    }
+
+    main .move-right {
+        transform: translate(0%, 240%);
+    }
+
+    main .move-left {
+        transform: translate(0%, -240%);
+    }
+
+    main .image-description {
+        padding: 30px 20px;
+        font-size: 1.4em;
+    }
+    
+    main .image2 {
+        z-index: -1;
+    }
+
+    main .image4 {
+        z-index: -1;
+    }    
+}
+
 @media screen and (max-width: 375px) and (max-height: 811px) { 
     main .container {
         margin-top: 6%;
